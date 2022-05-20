@@ -1,0 +1,125 @@
+#header {
+	position:absolute; 
+	top:0; 
+	left:0; 
+	width:1024; 
+	height:150; 
+	z-index:1; 
+	padding:6px; 
+	border: #000000 2px solid;
+	background-color:#000000;  
+} 
+#nav {
+	position:absolute; 
+	top:160; 
+	left:0; 
+	width:1024; 
+	height:50; 
+	z-index:1; 
+	padding:6px; 
+	border: #000000 2px solid;
+	background-color:#000000; 
+    background-image:url(yourfilename.gif);
+	text-align:center;
+} 
+#leftcontent {
+	position:absolute; 
+	top:220; 
+	left:0; 
+	width:507; 
+	height:500; 
+	z-index:1; 
+	padding:6px; 
+	border: #000000 2px solid;
+	background-color:#000000;  
+}   
+#rightcontent {
+	position:absolute; 
+	top:220; 
+	left:517; 
+	width:507; 
+	height:500; 
+	z-index:1; 
+	padding:6px; 
+	border: #000000 2px solid;
+	background-color:#000000; 
+} 
+#footer{
+	position:absolute; 
+	top:730; 
+	left:0; 
+	width:1024; 
+	height:50; 
+	z-index:1; 
+	padding:6px; 
+	border: #000000 2px solid;
+	background-color:#000000;  
+} 
+#master {
+	position:relative; 
+	margin-left: auto; 
+	margin-right: auto; 
+	top:center; 
+	left:center; 
+	width:1024; 
+	height:auto; 
+	z-index:1; 
+	padding:0px; 
+	border: #000000 1px solid; 
+	background-color:#000000; 
+	background-image:url(yourfilename.gif);
+}	
+
+a:link {color: #b80909; font-size: 40px; font-family:Arial;} /* unvisited link */
+a:visited {color: #8c0104; font-size: 40px; font-family:Arial;} /* visited link */
+a:hover {color: #ffffff; font-size: 40px; font-family:Arial;} /* mouse over link */
+a:active {color: #e2ed05; font-size: 40px; font-family:Arial;} /* selected link */
+
+#gallerycontent {
+	position:absolute; 
+	top:220; 
+	left:0; 
+	width:1024; 
+	height:500; 
+	z-index:1; 
+	padding:6px; 
+	border: #000000 2px solid;
+	background-color:#000000; 
+	background-image:url(yourfilename.gif); 
+	overflow-y: auto;
+	overflow-x: hidden;
+} 
+
+body {
+	background-image: url("jumpscare.gif");
+	background-image: repeat;		
+}
+
+#characterscontent {
+	position:absolute; 
+	top:220; 
+	left:0; 
+	width:1024; 
+	height:500; 
+	z-index:1; 
+	border: blue 6px solid;
+	background-color:white; 
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#leftcharactercontent {
+	position:absolute;  
+	left:0; 
+	width:507; 
+	height:480; 
+	z-index:1; 
+	padding:6px; 
+}   
+#rightcharactercontent {
+	position:absolute; 
+	left:517; 
+	width:507; 
+	height:480; 
+	z-index:1; 
+} 
